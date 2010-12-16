@@ -2,6 +2,43 @@ local zone = "The Bastion of Twilight"
 
 --en_zone, debuffID, order, icon_priority, color_priority, timer, stackable, color, default_disable, noicon
 
+-- Trash
+--Magma (falling off)
+GridStatusRaidDebuff:Debuff(zone, 81114, 1, 6, 5) --Magma
+GridStatusRaidDebuff:Debuff(zone, 81118, 1, 6, 5) --Magma
+--Tremors
+GridStatusRaidDebuff:Debuff(zone, 87931, 1, 6, 5) --Tremors
+--Phased Burn
+GridStatusRaidDebuff:Debuff(zone, 85799, 1, 6, 5) --Phased Burn
+--Crimson Flames
+GridStatusRaidDebuff:Debuff(zone, 88232, 1, 6, 5) --Crimson Flames
+--Twilight Soulblade
+GridStatusRaidDebuff:Debuff(zone, 84850, 1, 6, 5) --Soul Blade
+GridStatusRaidDebuff:Debuff(zone, 84853, 1, 6, 5) --Dark Pool
+--Crimsonborne Firestarter
+GridStatusRaidDebuff:Debuff(zone, 88219, 1, 6, 5) --Burning Twilight
+--Twilight Elementalist
+GridStatusRaidDebuff:Debuff(zone, 88079, 1, 6, 5) --Frostfire Bolt
+
+--Azureborne Destroyer
+-- Statis Strike is magic
+--GridStatusRaidDebuff:Debuff(zone, 88178, 1, 6, 5) --Stasis Strike
+
+--Earth Ravager
+-- Petrify Skin is magic
+-- GridStatusRaidDebuff:Debuff(zone, 87917, 1, 6, 5) --Petrify Skin
+
+--Twist Phase-Twister
+-- Twist Phase is magic
+-- GridStatusRaidDebuff:Debuff(zone, 84838, 1, 6, 5) --Twist Phase
+
+--Twilight Crossfire
+-- Wyvern Sting is a poison and shows up as one
+
+--Shadow Lord
+-- Gripping Shadows is magic
+--GridStatusRaidDebuff:Debuff(zone, 87629, 1, 6, 5) --Gripping Shadows
+
 --Halfus Wyrmbreaker
 GridStatusRaidDebuff:BossName(zone, 10, "Halfus Wyrmbreaker")
 GridStatusRaidDebuff:Debuff(zone, 83710, 11, 5, 5) --Furious Roar
