@@ -3,7 +3,7 @@ local zone = "Throne of the Four Winds"
 --en_zone, debuffID, order, icon_priority, color_priority, timer, stackable, color, default_disable, noicon
 
 --Conclave of Wind
-GridStatusRaidDebuff:BossName(zone, 10, "Argaloth")
+GridStatusRaidDebuff:BossName(zone, 10, "Conclave of Wind")
 GridStatusRaidDebuff:Debuff(zone, 84645, 11, 5, 5) --Wind Chill
 GridStatusRaidDebuff:Debuff(zone, 86111, 12, 6, 6) --Ice Patch
 GridStatusRaidDebuff:Debuff(zone, 86082, 13, 7, 7) --Permafrost

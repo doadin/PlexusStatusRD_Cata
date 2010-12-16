@@ -6,6 +6,12 @@
 ## Grid Author: Pastamancer & Maia
 ## Dependencies: GridStatusRaidDebuff
 
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
 BaradinHold.lua
 BlackwingDescent.lua
 TheBastionOfTwilight.lua
+ThroneOfTheFourWinds.lua
+
