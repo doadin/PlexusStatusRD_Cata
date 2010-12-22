@@ -19,6 +19,11 @@ GridStatusRaidDebuff:Debuff(zone, 84853, 1, 6, 5) --Dark Pool
 GridStatusRaidDebuff:Debuff(zone, 88219, 1, 6, 5) --Burning Twilight
 --Twilight Elementalist
 GridStatusRaidDebuff:Debuff(zone, 88079, 1, 6, 5) --Frostfire Bolt
+--Twilight Shadow Knight
+GridStatusRaidDebuff:Debuff(zone, 76622, 1, 4, 4) --Sunder Armor
+GridStatusRaidDebuff:Debuff(zone, 84832, 1, 5, 5) --Dismantle
+--Twilight Dark Mender
+GridStatusRaidDebuff:Debuff(zone, 84856, 1, 6, 5) --Hungering Shadows
 
 --Azureborne Destroyer
 -- Statis Strike is magic
@@ -39,29 +44,32 @@ GridStatusRaidDebuff:Debuff(zone, 88079, 1, 6, 5) --Frostfire Bolt
 -- Gripping Shadows is magic
 --GridStatusRaidDebuff:Debuff(zone, 87629, 1, 6, 5) --Gripping Shadows
 
+--Chosen Seer
+-- Flame Shock is Magic
+
 --Halfus Wyrmbreaker
 GridStatusRaidDebuff:BossName(zone, 10, "Halfus Wyrmbreaker")
 GridStatusRaidDebuff:Debuff(zone, 83710, 11, 5, 5) --Furious Roar
 GridStatusRaidDebuff:Debuff(zone, 83908, 12, 5, 5) --Malevolent Strikes
-GridStatusRaidDebuff:Debuff(zone, 86157, 13, 5, 5) --Malevolent Strikes
-GridStatusRaidDebuff:Debuff(zone, 86158, 14, 5, 5) --Malevolent Strikes
-GridStatusRaidDebuff:Debuff(zone, 86159, 15, 5, 5) --Malevolent Strikes
-GridStatusRaidDebuff:Debuff(zone, 83603, 15, 5, 5) --Stone Touch
+GridStatusRaidDebuff:Debuff(zone, 83603, 13, 5, 5) --Stone Touch
+--GridStatusRaidDebuff:Debuff(zone, 86157, 13, 5, 5) --Malevolent Strikes
+--GridStatusRaidDebuff:Debuff(zone, 86158, 14, 5, 5) --Malevolent Strikes
+--GridStatusRaidDebuff:Debuff(zone, 86159, 15, 5, 5) --Malevolent Strikes
 
 -- Valiona and Theralion
 GridStatusRaidDebuff:BossName(zone, 20, "Valiona and Theralion")
 GridStatusRaidDebuff:Debuff(zone, 86788, 21, 5, 5) --Blackout 10-normal
-GridStatusRaidDebuff:Debuff(zone, 92876, 22, 5, 5) --Blackout 25-normal
-GridStatusRaidDebuff:Debuff(zone, 92877, 23, 5, 5) --Blackout
-GridStatusRaidDebuff:Debuff(zone, 92878, 24, 5, 5) --Blackout
-GridStatusRaidDebuff:Debuff(zone, 86622, 25, 5, 5) --Engulfing Magic 10-normal
-GridStatusRaidDebuff:Debuff(zone, 95639, 26, 5, 5) --Engulfing Magic 25-normal
-GridStatusRaidDebuff:Debuff(zone, 95640, 27, 5, 5) --Engulfing Magic
-GridStatusRaidDebuff:Debuff(zone, 95641, 28, 5, 5) --Engulfing Magic
-GridStatusRaidDebuff:Debuff(zone, 86202, 29, 5, 5) --Twilight Shift 10-normal
-GridStatusRaidDebuff:Debuff(zone, 92889, 30, 5, 5) --Twilight Shift 25-normal
-GridStatusRaidDebuff:Debuff(zone, 92890, 31, 5, 5) --Twilight Shift
-GridStatusRaidDebuff:Debuff(zone, 92891, 32, 5, 5) --Twilight Shift
+GridStatusRaidDebuff:Debuff(zone, 86622, 22, 5, 5) --Engulfing Magic 10-normal
+GridStatusRaidDebuff:Debuff(zone, 86202, 23, 5, 5) --Twilight Shift 10-normal
+--GridStatusRaidDebuff:Debuff(zone, 92876, 22, 5, 5) --Blackout 25-normal
+--GridStatusRaidDebuff:Debuff(zone, 92877, 23, 5, 5) --Blackout
+--GridStatusRaidDebuff:Debuff(zone, 92878, 24, 5, 5) --Blackout
+--GridStatusRaidDebuff:Debuff(zone, 95639, 26, 5, 5) --Engulfing Magic 25-normal
+--GridStatusRaidDebuff:Debuff(zone, 95640, 27, 5, 5) --Engulfing Magic
+--GridStatusRaidDebuff:Debuff(zone, 95641, 28, 5, 5) --Engulfing Magic
+--GridStatusRaidDebuff:Debuff(zone, 92889, 30, 5, 5) --Twilight Shift 25-normal
+--GridStatusRaidDebuff:Debuff(zone, 92890, 31, 5, 5) --Twilight Shift
+--GridStatusRaidDebuff:Debuff(zone, 92891, 32, 5, 5) --Twilight Shift
 
 -- Twilight Ascendant Council
 GridStatusRaidDebuff:BossName(zone, 30, "Ascendant Council")

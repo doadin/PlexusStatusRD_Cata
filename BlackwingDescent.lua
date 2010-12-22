@@ -5,6 +5,30 @@ local zone = "Blackwing Descent"
 -- It looks like Grid works by name, not by spell Id
 -- So don't need to add all the different spell ids for the different difficulties
 
+-- Trash
+--Drakonid Slayer
+GridStatusRaidDebuff:Debuff(zone, 80390, 1, 6, 5) --Mortal Strike
+--Maimgor/Ivoroc
+GridStatusRaidDebuff:Debuff(zone, 80270, 1, 6, 5) --Shadowflame
+GridStatusRaidDebuff:Debuff(zone, 80145, 1, 6, 5) --Piercing Grip
+--Spirit of Ironstar (spreads to other spirits when you kill Ironstar)
+GridStatusRaidDebuff:Debuff(zone, 80727, 1, 6, 5) --Execution Sentence
+--Drakeadon Mongrel
+GridStatusRaidDebuff:Debuff(zone, 80345, 1, 6, 5) --Corrosive Acid
+GridStatusRaidDebuff:Debuff(zone, 80329, 1, 6, 5) --Time Lapse
+-- Frost Burn is magic and alredy shows up
+--Drakonid Drudge
+GridStatusRaidDebuff:Debuff(zone, 79630, 1, 6, 5) --Drakonid Rush
+--Drakonid Chainwielder
+GridStatusRaidDebuff:Debuff(zone, 79589, 1, 6, 5) --Constricting Chains
+GridStatusRaidDebuff:Debuff(zone, 79580, 1, 6, 5) --Overhead Smash
+--Golem Sentry
+GridStatusRaidDebuff:Debuff(zone, 81060, 1, 6, 5) --Flash Bomb
+
+--Curse of Mending shows up as a Curse (dispellable)
+--Stormbolt shows up as Magic (dispellable)
+--Burden of the Crown is a buff debuff
+
 --Magmaw
 GridStatusRaidDebuff:BossName(zone, 10, "Magmaw")
 GridStatusRaidDebuff:Debuff(zone, 89773, 11, 5, 5) --Mangle
@@ -38,7 +62,8 @@ GridStatusRaidDebuff:Debuff(zone, 82881, 34, 7, 7) --Break
 GridStatusRaidDebuff:BossName(zone, 40, "Atramedes")
 GridStatusRaidDebuff:Debuff(zone, 78092, 41, 5, 5) --Tracking
 GridStatusRaidDebuff:Debuff(zone, 77982, 42, 6, 6) --Searing Flame
-GridStatusRaidDebuff:Debuff(zone, 78023, 46, 6, 6) --Roaring Flame
+GridStatusRaidDebuff:Debuff(zone, 78023, 43, 6, 6) --Roaring Flame
+GridStatusRaidDebuff:Debuff(zone, 78897, 43, 6, 6) --Noisy!
 --GridStatusRaidDebuff:Debuff(zone, 92421, 43, 6, 6) --Searing Flame
 --GridStatusRaidDebuff:Debuff(zone, 92422, 44, 6, 6) --Searing Flame
 --GridStatusRaidDebuff:Debuff(zone, 92423, 45, 6, 6) --Searing Flame
@@ -50,12 +75,12 @@ GridStatusRaidDebuff:Debuff(zone, 78023, 46, 6, 6) --Roaring Flame
 GridStatusRaidDebuff:BossName(zone, 50, "Maloriak")
 GridStatusRaidDebuff:Debuff(zone, 78034, 51, 5, 5) --Rend 10-normal
 -- Not sure what rend ids are used on other difficulties
-GridStatusRaidDebuff:Debuff(zone, 78225, 53, 6, 6) --Acid Nova 10-normal
-GridStatusRaidDebuff:Debuff(zone, 77615, 57, 5, 5) --Debilitating Slime 10-normal/25-normal
-GridStatusRaidDebuff:Debuff(zone, 77786, 59, 6, 6) --Consuming Flames 10-normal
-GridStatusRaidDebuff:Debuff(zone, 78617, 63, 6, 6) --Fixate
-GridStatusRaidDebuff:Debuff(zone, 77760, 64, 6, 6) --Biting Chill
-GridStatusRaidDebuff:Debuff(zone, 77699, 65, 6, 6) --Flash Freeze 10-normal
+GridStatusRaidDebuff:Debuff(zone, 78225, 52, 6, 6) --Acid Nova 10-normal
+GridStatusRaidDebuff:Debuff(zone, 77615, 53, 5, 5) --Debilitating Slime 10-normal/25-normal
+GridStatusRaidDebuff:Debuff(zone, 77786, 54, 6, 6) --Consuming Flames 10-normal
+GridStatusRaidDebuff:Debuff(zone, 78617, 55, 6, 6) --Fixate
+GridStatusRaidDebuff:Debuff(zone, 77760, 56, 6, 6) --Biting Chill
+GridStatusRaidDebuff:Debuff(zone, 77699, 57, 6, 6) --Flash Freeze 10-normal
 --GridStatusRaidDebuff:Debuff(zone, 92989, 52, 5, 5) --Rend 25-normal
 --GridStatusRaidDebuff:Debuff(zone, 93011, 54, 6, 6) --Acid Nova 25-normal
 --GridStatusRaidDebuff:Debuff(zone, 93012, 55, 6, 6) --Acid Nova
@@ -71,7 +96,7 @@ GridStatusRaidDebuff:Debuff(zone, 77699, 65, 6, 6) --Flash Freeze 10-normal
 --Nefarian
 GridStatusRaidDebuff:BossName(zone, 80, "Nefarian")
 GridStatusRaidDebuff:Debuff(zone, 81118, 81, 5, 5) --Magma 10-normal
-GridStatusRaidDebuff:Debuff(zone, 77827, 85, 5, 5) --Tail Lash 10-normal
+GridStatusRaidDebuff:Debuff(zone, 77827, 82, 5, 5) --Tail Lash 10-normal
 --GridStatusRaidDebuff:Debuff(zone, 94073, 82, 5, 5) --Magma
 --GridStatusRaidDebuff:Debuff(zone, 94074, 83, 5, 5) --Magma
 --GridStatusRaidDebuff:Debuff(zone, 94075, 84, 5, 5) --Magma
