@@ -12,7 +12,7 @@ GridStatusRaidDebuff:Debuff(zone, 80390, 1, 6, 5) --Mortal Strike
 GridStatusRaidDebuff:Debuff(zone, 80270, 1, 6, 5) --Shadowflame
 GridStatusRaidDebuff:Debuff(zone, 80145, 1, 6, 5) --Piercing Grip
 --Spirit of Ironstar (spreads to other spirits when you kill Ironstar)
-GridStatusRaidDebuff:Debuff(zone, 80727, 1, 6, 5) --Execution Sentence
+GridStatusRaidDebuff:Debuff(zone, 80727, 1, 6, 5, true) --Execution Sentence
 --Drakeadon Mongrel
 GridStatusRaidDebuff:Debuff(zone, 80345, 1, 6, 5) --Corrosive Acid
 GridStatusRaidDebuff:Debuff(zone, 80329, 1, 6, 5) --Time Lapse
@@ -53,7 +53,7 @@ GridStatusRaidDebuff:BossName(zone, 30, "Chimaeron")
 GridStatusRaidDebuff:Debuff(zone, 89084, 31, 8, 8) --Low Health
 GridStatusRaidDebuff:Debuff(zone, 82890, 32, 5, 5) --Mortality
 GridStatusRaidDebuff:Debuff(zone, 82935, 33, 6, 6) --Caustic Slime
-GridStatusRaidDebuff:Debuff(zone, 82881, 34, 7, 7) --Break
+GridStatusRaidDebuff:Debuff(zone, 82881, 34, 7, 7, true, true) --Break
 --GridStatusRaidDebuff:Debuff(zone, 88915, 34, 6, 6) --Caustic Slime
 --GridStatusRaidDebuff:Debuff(zone, 88916, 35, 6, 6) --Caustic Slime
 --GridStatusRaidDebuff:Debuff(zone, 88917, 36, 6, 6) --Caustic Slime
