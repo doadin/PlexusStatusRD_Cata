@@ -4,8 +4,8 @@ local zone = "The Bastion of Twilight"
 
 -- Trash
 --Magma (falling off)
-GridStatusRaidDebuff:Debuff(zone, 81114, 1, 6, 5) --Magma
-GridStatusRaidDebuff:Debuff(zone, 81118, 1, 6, 5) --Magma
+--GridStatusRaidDebuff:Debuff(zone, 81114, 1, 6, 5) --Magma
+GridStatusRaidDebuff:Debuff(zone, 81118, 1, 6, 5, true, true) --Magma
 --Tremors
 GridStatusRaidDebuff:Debuff(zone, 87931, 1, 6, 5) --Tremors
 --Phased Burn
@@ -20,7 +20,7 @@ GridStatusRaidDebuff:Debuff(zone, 88219, 1, 6, 5) --Burning Twilight
 --Twilight Elementalist
 GridStatusRaidDebuff:Debuff(zone, 88079, 1, 6, 5) --Frostfire Bolt
 --Twilight Shadow Knight
-GridStatusRaidDebuff:Debuff(zone, 76622, 1, 4, 4) --Sunder Armor
+GridStatusRaidDebuff:Debuff(zone, 76622, 1, 4, 4, true, true) --Sunder Armor
 GridStatusRaidDebuff:Debuff(zone, 84832, 1, 5, 5) --Dismantle
 --Twilight Dark Mender
 GridStatusRaidDebuff:Debuff(zone, 84856, 1, 6, 5) --Hungering Shadows
@@ -50,7 +50,7 @@ GridStatusRaidDebuff:Debuff(zone, 84856, 1, 6, 5) --Hungering Shadows
 --Halfus Wyrmbreaker
 GridStatusRaidDebuff:BossName(zone, 10, "Halfus Wyrmbreaker")
 GridStatusRaidDebuff:Debuff(zone, 83710, 11, 5, 5) --Furious Roar
-GridStatusRaidDebuff:Debuff(zone, 83908, 12, 5, 5) --Malevolent Strikes
+GridStatusRaidDebuff:Debuff(zone, 83908, 12, 5, 5, true, true) --Malevolent Strikes
 GridStatusRaidDebuff:Debuff(zone, 83603, 13, 5, 5) --Stone Touch
 --GridStatusRaidDebuff:Debuff(zone, 86157, 13, 5, 5) --Malevolent Strikes
 --GridStatusRaidDebuff:Debuff(zone, 86158, 14, 5, 5) --Malevolent Strikes

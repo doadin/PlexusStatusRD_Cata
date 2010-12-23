@@ -4,11 +4,11 @@ local zone = "Throne of the Four Winds"
 
 --Conclave of Wind
 GridStatusRaidDebuff:BossName(zone, 10, "Conclave of Wind")
-GridStatusRaidDebuff:Debuff(zone, 84645, 11, 5, 5) --Wind Chill
-GridStatusRaidDebuff:Debuff(zone, 86111, 12, 6, 6) --Ice Patch
+GridStatusRaidDebuff:Debuff(zone, 84645, 11, 5, 5, true, true) --Wind Chill
+GridStatusRaidDebuff:Debuff(zone, 86111, 12, 6, 6, true, true) --Ice Patch
 GridStatusRaidDebuff:Debuff(zone, 86082, 13, 7, 7) --Permafrost
 GridStatusRaidDebuff:Debuff(zone, 86481, 14, 7, 7) --Hurricane
-GridStatusRaidDebuff:Debuff(zone, 86282, 15, 7, 7) --Toxic Spores
+GridStatusRaidDebuff:Debuff(zone, 86282, 15, 7, 7, true, true) --Toxic Spores
 GridStatusRaidDebuff:Debuff(zone, 85573, 16, 8, 8) --Deafening Winds
 GridStatusRaidDebuff:Debuff(zone, 85576, 17, 8, 8) --Withering Winds
 

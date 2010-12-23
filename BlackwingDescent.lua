@@ -61,7 +61,7 @@ GridStatusRaidDebuff:Debuff(zone, 82881, 34, 7, 7) --Break
 --Atramedes
 GridStatusRaidDebuff:BossName(zone, 40, "Atramedes")
 GridStatusRaidDebuff:Debuff(zone, 78092, 41, 5, 5) --Tracking
-GridStatusRaidDebuff:Debuff(zone, 77982, 42, 6, 6) --Searing Flame
+GridStatusRaidDebuff:Debuff(zone, 77982, 42, 6, 6, true, true) --Searing Flame
 GridStatusRaidDebuff:Debuff(zone, 78023, 43, 6, 6) --Roaring Flame
 GridStatusRaidDebuff:Debuff(zone, 78897, 43, 6, 6) --Noisy!
 --GridStatusRaidDebuff:Debuff(zone, 92421, 43, 6, 6) --Searing Flame
@@ -73,7 +73,7 @@ GridStatusRaidDebuff:Debuff(zone, 78897, 43, 6, 6) --Noisy!
 
 --Maloriak
 GridStatusRaidDebuff:BossName(zone, 50, "Maloriak")
-GridStatusRaidDebuff:Debuff(zone, 78034, 51, 5, 5) --Rend 10-normal
+GridStatusRaidDebuff:Debuff(zone, 78034, 51, 5, 5, true, true) --Rend 10-normal
 -- Not sure what rend ids are used on other difficulties
 GridStatusRaidDebuff:Debuff(zone, 78225, 52, 6, 6) --Acid Nova 10-normal
 GridStatusRaidDebuff:Debuff(zone, 77615, 53, 5, 5) --Debilitating Slime 10-normal/25-normal
@@ -95,7 +95,7 @@ GridStatusRaidDebuff:Debuff(zone, 77699, 57, 6, 6) --Flash Freeze 10-normal
 
 --Nefarian
 GridStatusRaidDebuff:BossName(zone, 80, "Nefarian")
-GridStatusRaidDebuff:Debuff(zone, 81118, 81, 5, 5) --Magma 10-normal
+GridStatusRaidDebuff:Debuff(zone, 81118, 81, 5, 5, true, true) --Magma 10-normal
 GridStatusRaidDebuff:Debuff(zone, 77827, 82, 5, 5) --Tail Lash 10-normal
 --GridStatusRaidDebuff:Debuff(zone, 94073, 82, 5, 5) --Magma
 --GridStatusRaidDebuff:Debuff(zone, 94074, 83, 5, 5) --Magma
