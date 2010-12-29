@@ -110,8 +110,9 @@ GridStatusRaidDebuff:BossName(zone, 40, "Cho'gall")
 GridStatusRaidDebuff:Debuff(zone, 81701, 41, 4, 4, true, true) --Corrupted Blood
 -- Corruption: Accelerated is lower priority than the stacks so it won't overwrite
 GridStatusRaidDebuff:Debuff(zone, 81836, 42, 3, 3) --Corruption: Accelerated
-GridStatusRaidDebuff:Debuff(zone, 81836, 43, 5, 5) --Corruption: Absolute
-GridStatusRaidDebuff:Debuff(zone, 82523, 44, 6, 6) --Gall's Blast
-GridStatusRaidDebuff:Debuff(zone, 82518, 45, 6, 6) --Cho's Blast
-GridStatusRaidDebuff:Debuff(zone, 82411, 46, 7, 7) --Debilitating Beam
+GridStatusRaidDebuff:Debuff(zone, 82125, 43, 3, 3) --Corruption: Malformation
+GridStatusRaidDebuff:Debuff(zone, 82170, 44, 5, 5) --Corruption: Absolute
+GridStatusRaidDebuff:Debuff(zone, 82523, 45, 6, 6) --Gall's Blast
+GridStatusRaidDebuff:Debuff(zone, 82518, 46, 6, 6) --Cho's Blast
+GridStatusRaidDebuff:Debuff(zone, 82411, 47, 7, 7) --Debilitating Beam
 
