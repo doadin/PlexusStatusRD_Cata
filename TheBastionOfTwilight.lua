@@ -24,6 +24,26 @@ GridStatusRaidDebuff:Debuff(zone, 76622, 1, 4, 4, true, true) --Sunder Armor
 GridStatusRaidDebuff:Debuff(zone, 84832, 1, 5, 5) --Dismantle
 --Twilight Dark Mender
 GridStatusRaidDebuff:Debuff(zone, 84856, 1, 6, 5) --Hungering Shadows
+--Twilight Shadow Mender
+GridStatusRaidDebuff:Debuff(zone, 85643, 1, 6, 5) --Mind Sear
+--Bound Zephyr
+GridStatusRaidDebuff:Debuff(zone, 93277, 1, 6, 5, true, true) --Rending Gale
+-- More important to show Rending Gale stack imo, but user can adjust priority
+-- if they feel differently
+GridStatusRaidDebuff:Debuff(zone, 93306, 1, 4, 4) --Vaporize
+--Bound Rumbler
+GridStatusRaidDebuff:Debuff(zone, 93327, 1, 6, 5, true, true) --Entomb
+-- More important to show Entomb stack imo, but user can adjust priority
+-- if they feel differently
+GridStatusRaidDebuff:Debuff(zone, 93325, 1, 4, 4) --Shockwave
+--Faceless Guardian
+GridStatusRaidDebuff:Debuff(zone, 85482, 1, 6, 5, true, true) --Shadow Volley
+--Shadow Lord
+GridStatusRaidDebuff:Debuff(zone, 87629, 1, 6, 5) --Gripping Shadows
+
+--Bound Deluge
+--Everyone should get Cold-Touched
+--Frost Whirl is magic
 
 --Azureborne Destroyer
 -- Statis Strike is magic
@@ -78,11 +98,20 @@ GridStatusRaidDebuff:Debuff(zone, 83099, 32, 5, 5) --Lightning Rod
 GridStatusRaidDebuff:Debuff(zone, 82285, 33, 6, 6) --Elemental Stasis
 GridStatusRaidDebuff:Debuff(zone, 82660, 34, 6, 6) --Burning Blood
 GridStatusRaidDebuff:Debuff(zone, 82665, 35, 6, 6) --Heart of Ice
+GridStatusRaidDebuff:Debuff(zone, 82772, 36, 7, 7) --Frozen
+GridStatusRaidDebuff:Debuff(zone, 84948, 37, 6, 6) --Gravity Crush
+-- Debuffs we don't care about seeing:
+-- GridStatusRaidDebuff:Debuff(zone, 83500, 39, 4, 4) --Swirling Winds
+-- GridStatusRaidDebuff:Debuff(zone, 83581, 39, 4, 4) --Grounded
+-- GridStatusRaidDebuff:Debuff(zone, 83587, 39, 4, 4) --Magnetic Pull
 
 -- Cho'gall
 GridStatusRaidDebuff:BossName(zone, 40, "Cho'gall")
-GridStatusRaidDebuff:Debuff(zone, 81701, 41, 5, 5) --Corrupted Blood
-GridStatusRaidDebuff:Debuff(zone, 82523, 42, 6, 6) --Gall's Blast
-GridStatusRaidDebuff:Debuff(zone, 82518, 43, 6, 6) --Cho's Blast
-GridStatusRaidDebuff:Debuff(zone, 82411, 44, 7, 7) --Debilitating Beam
+GridStatusRaidDebuff:Debuff(zone, 81701, 41, 4, 4, true, true) --Corrupted Blood
+-- Corruption: Accelerated is lower priority than the stacks so it won't overwrite
+GridStatusRaidDebuff:Debuff(zone, 81836, 42, 3, 3) --Corruption: Accelerated
+GridStatusRaidDebuff:Debuff(zone, 81836, 43, 5, 5) --Corruption: Absolute
+GridStatusRaidDebuff:Debuff(zone, 82523, 44, 6, 6) --Gall's Blast
+GridStatusRaidDebuff:Debuff(zone, 82518, 45, 6, 6) --Cho's Blast
+GridStatusRaidDebuff:Debuff(zone, 82411, 46, 7, 7) --Debilitating Beam
 

@@ -22,8 +22,11 @@ GridStatusRaidDebuff:Debuff(zone, 79630, 1, 6, 5) --Drakonid Rush
 --Drakonid Chainwielder
 GridStatusRaidDebuff:Debuff(zone, 79589, 1, 6, 5) --Constricting Chains
 GridStatusRaidDebuff:Debuff(zone, 79580, 1, 6, 5) --Overhead Smash
+GridStatusRaidDebuff:Debuff(zone, 91910, 1, 7, 6) --Grievous Wound
 --Golem Sentry
 GridStatusRaidDebuff:Debuff(zone, 81060, 1, 6, 5) --Flash Bomb
+--Pyrecraw
+GridStatusRaidDebuff:Debuff(zone, 80127, 1, 4, 4, true, true) --Flame Buffet
 
 --Curse of Mending shows up as a Curse (dispellable)
 --Stormbolt shows up as Magic (dispellable)
@@ -33,6 +36,7 @@ GridStatusRaidDebuff:Debuff(zone, 81060, 1, 6, 5) --Flash Bomb
 GridStatusRaidDebuff:BossName(zone, 10, "Magmaw")
 GridStatusRaidDebuff:Debuff(zone, 89773, 11, 5, 5) --Mangle
 GridStatusRaidDebuff:Debuff(zone, 78941, 12, 5, 5) --Parasitic Infection
+GridStatusRaidDebuff:Debuff(zone, 88287, 12, 5, 5) --Massive Crash
 
 --Omnitron Defense System
 GridStatusRaidDebuff:BossName(zone, 20, "Omnitron Defense System")
