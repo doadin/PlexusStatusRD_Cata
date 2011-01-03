@@ -19,4 +19,5 @@ GridStatusRaidDebuff:Debuff(zone, 87873, 22, 6, 6) --Static Shock
 GridStatusRaidDebuff:Debuff(zone, 88427, 23, 6, 6) --Electrocute
 GridStatusRaidDebuff:Debuff(zone, 89666, 24, 6, 6) --Lightning Rod
 GridStatusRaidDebuff:Debuff(zone, 89668, 25, 6, 6) --Lightning Rod
+GridStatusRaidDebuff:Debuff(zone, 87856, 25, 6, 6) --Squall Line
 

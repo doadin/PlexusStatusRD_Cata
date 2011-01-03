@@ -81,6 +81,7 @@ GridStatusRaidDebuff:BossName(zone, 20, "Valiona and Theralion")
 GridStatusRaidDebuff:Debuff(zone, 86788, 21, 5, 5) --Blackout 10-normal
 GridStatusRaidDebuff:Debuff(zone, 86622, 22, 5, 5) --Engulfing Magic 10-normal
 GridStatusRaidDebuff:Debuff(zone, 86202, 23, 5, 5) --Twilight Shift 10-normal
+GridStatusRaidDebuff:Debuff(zone, 86014, 24, 5, 5) --Twilight Meteorite
 --GridStatusRaidDebuff:Debuff(zone, 92876, 22, 5, 5) --Blackout 25-normal
 --GridStatusRaidDebuff:Debuff(zone, 92877, 23, 5, 5) --Blackout
 --GridStatusRaidDebuff:Debuff(zone, 92878, 24, 5, 5) --Blackout
@@ -100,9 +101,9 @@ GridStatusRaidDebuff:Debuff(zone, 82660, 34, 6, 6) --Burning Blood
 GridStatusRaidDebuff:Debuff(zone, 82665, 35, 6, 6) --Heart of Ice
 GridStatusRaidDebuff:Debuff(zone, 82772, 36, 7, 7) --Frozen
 GridStatusRaidDebuff:Debuff(zone, 84948, 37, 6, 6) --Gravity Crush
+GridStatusRaidDebuff:Debuff(zone, 83500, 38, 4, 4) --Swirling Winds
+GridStatusRaidDebuff:Debuff(zone, 83581, 39, 4, 4) --Grounded
 -- Debuffs we don't care about seeing:
--- GridStatusRaidDebuff:Debuff(zone, 83500, 39, 4, 4) --Swirling Winds
--- GridStatusRaidDebuff:Debuff(zone, 83581, 39, 4, 4) --Grounded
 -- GridStatusRaidDebuff:Debuff(zone, 83587, 39, 4, 4) --Magnetic Pull
 
 -- Cho'gall
