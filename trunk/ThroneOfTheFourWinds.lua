@@ -11,6 +11,8 @@ GridStatusRaidDebuff:Debuff(zone, 86481, 14, 7, 7) --Hurricane
 GridStatusRaidDebuff:Debuff(zone, 86282, 15, 7, 7, true, true) --Toxic Spores
 GridStatusRaidDebuff:Debuff(zone, 85573, 16, 8, 8) --Deafening Winds
 GridStatusRaidDebuff:Debuff(zone, 85576, 17, 8, 8) --Withering Winds
+-- Heroic
+GridStatusRaidDebuff:Debuff(zone, 93057, 18, 7, 7, true, true) --Slicing Gale
 
 --Al'Akir
 GridStatusRaidDebuff:BossName(zone, 20, "Al'Akir")
