@@ -8,6 +8,7 @@ local zone = "Blackwing Descent"
 -- Trash
 --Drakonid Slayer
 GridStatusRaidDebuff:Debuff(zone, 80390, 1, 6, 5) --Mortal Strike
+-- Don't care about Blast Wave, it's just a slow
 --Maimgor/Ivoroc
 GridStatusRaidDebuff:Debuff(zone, 80270, 1, 6, 5) --Shadowflame
 GridStatusRaidDebuff:Debuff(zone, 80145, 1, 6, 5) --Piercing Grip
@@ -27,6 +28,8 @@ GridStatusRaidDebuff:Debuff(zone, 91910, 1, 7, 6) --Grievous Wound
 GridStatusRaidDebuff:Debuff(zone, 81060, 1, 6, 5) --Flash Bomb
 --Pyrecraw
 GridStatusRaidDebuff:Debuff(zone, 80127, 1, 4, 4, true, true) --Flame Buffet
+--Nefarian
+GridStatusRaidDebuff:Debuff(zone, 79353, 1, 4, 4, true, true) --Shadow of Cowardice
 
 --Curse of Mending shows up as a Curse (dispellable)
 --Stormbolt shows up as Magic (dispellable)
@@ -36,7 +39,8 @@ GridStatusRaidDebuff:Debuff(zone, 80127, 1, 4, 4, true, true) --Flame Buffet
 GridStatusRaidDebuff:BossName(zone, 10, "Magmaw")
 GridStatusRaidDebuff:Debuff(zone, 89773, 11, 5, 5) --Mangle
 GridStatusRaidDebuff:Debuff(zone, 78941, 12, 5, 5) --Parasitic Infection
-GridStatusRaidDebuff:Debuff(zone, 88287, 12, 5, 5) --Massive Crash
+GridStatusRaidDebuff:Debuff(zone, 88287, 13, 5, 5) --Massive Crash
+GridStatusRaidDebuff:Debuff(zone, 78199, 14, 4, 4) --Sweltering Armor
 
 --Omnitron Defense System
 GridStatusRaidDebuff:BossName(zone, 20, "Omnitron Defense System")
@@ -46,7 +50,12 @@ GridStatusRaidDebuff:Debuff(zone, 80011, 23, 5, 5) --Soaked in Poison
 GridStatusRaidDebuff:Debuff(zone, 79505, 24, 5, 5) --Flamethrower
 GridStatusRaidDebuff:Debuff(zone, 80094, 25, 5, 5) --Fixate
 GridStatusRaidDebuff:Debuff(zone, 79501, 26, 5, 5) --Acquiring Target
+-- Heroic
+GridStatusRaidDebuff:Debuff(zone, 92053, 27, 5, 5) --Shadow Conductor
+GridStatusRaidDebuff:Debuff(zone, 92048, 28, 5, 5) --Shadow Infusion
+GridStatusRaidDebuff:Debuff(zone, 92023, 29, 6, 6) --Encasing Shadows
 -- Power Generator is good, don't need to watch it
+-- Overcharged Power Generator is good, don't need to watch it
 
 --Chimaeron
 GridStatusRaidDebuff:BossName(zone, 30, "Chimaeron")
@@ -55,6 +64,8 @@ GridStatusRaidDebuff:Debuff(zone, 82890, 32, 5, 5) --Mortality
 GridStatusRaidDebuff:Debuff(zone, 82935, 33, 6, 6) --Caustic Slime
 -- Heroic
 GridStatusRaidDebuff:Debuff(zone, 82881, 34, 7, 7, true, true) --Break
+GridStatusRaidDebuff:Debuff(zone, 91307, 35, 4, 4) --Mocking Shadows
+-- Don't care about Finkle's Mixture
 
 --Atramedes
 GridStatusRaidDebuff:BossName(zone, 40, "Atramedes")
@@ -80,4 +91,7 @@ GridStatusRaidDebuff:Debuff(zone, 92982, 59, 7, 7) --Engulfing Darkness
 GridStatusRaidDebuff:BossName(zone, 80, "Nefarian")
 GridStatusRaidDebuff:Debuff(zone, 81118, 81, 5, 5, true, true) --Magma 10-normal
 GridStatusRaidDebuff:Debuff(zone, 77827, 82, 5, 5) --Tail Lash 10-normal
+-- Heroic
+GridStatusRaidDebuff:Debuff(zone, 79339, 83, 6, 6) --Explosive Cinders
+GridStatusRaidDebuff:Debuff(zone, 79318, 84, 6, 6) --Dominion
 
