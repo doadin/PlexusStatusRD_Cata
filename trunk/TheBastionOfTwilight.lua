@@ -81,6 +81,7 @@ GridStatusRaidDebuff:Debuff(zone, 86788, 21, 5, 5) --Blackout 10-normal
 GridStatusRaidDebuff:Debuff(zone, 86622, 22, 5, 5) --Engulfing Magic 10-normal
 GridStatusRaidDebuff:Debuff(zone, 86202, 23, 5, 5) --Twilight Shift 10-normal
 GridStatusRaidDebuff:Debuff(zone, 86014, 24, 5, 5) --Twilight Meteorite
+GridStatusRaidDebuff:Debuff(zone, 92886, 25, 6, 6) --Twilight Zone
 
 -- Twilight Ascendant Council
 GridStatusRaidDebuff:BossName(zone, 30, "Ascendant Council")
@@ -92,9 +93,14 @@ GridStatusRaidDebuff:Debuff(zone, 82665, 35, 6, 6) --Heart of Ice
 GridStatusRaidDebuff:Debuff(zone, 82772, 36, 7, 7) --Frozen
 GridStatusRaidDebuff:Debuff(zone, 84948, 37, 6, 6) --Gravity Crush
 GridStatusRaidDebuff:Debuff(zone, 83500, 38, 4, 4) --Swirling Winds
-GridStatusRaidDebuff:Debuff(zone, 83581, 39, 4, 4) --Grounded
+GridStatusRaidDebuff:Debuff(zone, 83581, 38, 4, 4) --Grounded
+GridStatusRaidDebuff:Debuff(zone, 82285, 38, 4, 4) --Elemental Stasis
 -- Debuffs we don't care about seeing:
 -- GridStatusRaidDebuff:Debuff(zone, 83587, 39, 4, 4) --Magnetic Pull
+-- Heroic
+GridStatusRaidDebuff:Debuff(zone, 92307, 39, 7, 7) --Frost Beacon
+GridStatusRaidDebuff:Debuff(zone, 92467, 39, 7, 7) --Static Overload
+GridStatusRaidDebuff:Debuff(zone, 92538, 39, 7, 7) --Gravity Core
 
 -- Cho'gall
 GridStatusRaidDebuff:BossName(zone, 40, "Cho'gall")
