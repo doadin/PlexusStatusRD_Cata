@@ -79,9 +79,9 @@ GridStatusRaidDebuff:Debuff(zone, 83603, 13, 5, 5) --Stone Touch
 GridStatusRaidDebuff:BossName(zone, 20, "Valiona and Theralion")
 GridStatusRaidDebuff:Debuff(zone, 86788, 21, 5, 5) --Blackout 10-normal
 GridStatusRaidDebuff:Debuff(zone, 86622, 22, 5, 5) --Engulfing Magic 10-normal
-GridStatusRaidDebuff:Debuff(zone, 86202, 23, 5, 5) --Twilight Shift 10-normal
+GridStatusRaidDebuff:Debuff(zone, 86202, 23, 5, 5, true, true) --Twilight Shift 10-normal
 GridStatusRaidDebuff:Debuff(zone, 86014, 24, 5, 5) --Twilight Meteorite
-GridStatusRaidDebuff:Debuff(zone, 92886, 25, 6, 6) --Twilight Zone
+GridStatusRaidDebuff:Debuff(zone, 92886, 25, 6, 6, true, true) --Twilight Zone
 
 -- Twilight Ascendant Council
 GridStatusRaidDebuff:BossName(zone, 30, "Ascendant Council")
