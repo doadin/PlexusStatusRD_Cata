@@ -113,3 +113,10 @@ GridStatusRaidDebuff:Debuff(zone, 82523, 45, 6, 6) --Gall's Blast
 GridStatusRaidDebuff:Debuff(zone, 82518, 46, 6, 6) --Cho's Blast
 GridStatusRaidDebuff:Debuff(zone, 82411, 47, 7, 7) --Debilitating Beam
 
+-- Sinestra
+GridStatusRaidDebuff:BossName(zone, 50, "Sinestra")
+GridStatusRaidDebuff:Debuff(zone, 89299, 51, 4, 4, true, true) --Twilight Spit
+-- Wrack is dispellable
+-- GridStatusSinestra handles this better
+-- GridStatusRaidDebuff:Debuff(zone, 92955, 51, 4, 4) --Wrack
+
