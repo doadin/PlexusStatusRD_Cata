@@ -69,10 +69,12 @@ GridStatusRaidDebuff:Debuff(zone, 91307, 35, 4, 4) --Mocking Shadows
 
 --Atramedes
 GridStatusRaidDebuff:BossName(zone, 40, "Atramedes")
-GridStatusRaidDebuff:Debuff(zone, 78092, 41, 5, 5) --Tracking
-GridStatusRaidDebuff:Debuff(zone, 77982, 42, 6, 6, true, true) --Searing Flame
+GridStatusRaidDebuff:Debuff(zone, 78092, 41, 7, 7) --Tracking
+GridStatusRaidDebuff:Debuff(zone, 77982, 42, 4, 4, true, true) --Searing Flame
 GridStatusRaidDebuff:Debuff(zone, 78023, 43, 6, 6) --Roaring Flame
-GridStatusRaidDebuff:Debuff(zone, 78897, 43, 6, 6) --Noisy!
+GridStatusRaidDebuff:Debuff(zone, 78897, 44, 6, 6) --Noisy!
+-- Heroic
+GridStatusRaidDebuff:Debuff(zone, 92685, 45, 6, 6) --Pestered!
 
 --Maloriak
 GridStatusRaidDebuff:BossName(zone, 50, "Maloriak")
