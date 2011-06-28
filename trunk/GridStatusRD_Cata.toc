@@ -2,12 +2,13 @@
 ## Title: GridStatusRaidDebuff(Catalcysm)
 ## Notes: Debuff List for Cataclysm
 ## Author: Stassart (Trelis-Proudmoore-US)
-## Version: 1.1
+## Version: 1.2
 ## Grid Author: Pastamancer & Maia
 ## Dependencies: GridStatusRaidDebuff
 
 BaradinHold.lua
 BlackwingDescent.lua
+Firelands.lua
 TheBastionOfTwilight.lua
 ThroneOfTheFourWinds.lua
 
