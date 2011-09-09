@@ -86,7 +86,7 @@ GridStatusRaidDebuff:Debuff(zone, 92886, 25, 6, 6, true, true) --Twilight Zone
 -- Twilight Ascendant Council
 GridStatusRaidDebuff:BossName(zone, 30, "Ascendant Council")
 GridStatusRaidDebuff:Debuff(zone, 82762, 31, 5, 5) --Waterlogged
-GridStatusRaidDebuff:Debuff(zone, 83099, 32, 5, 5) --Lightning Rod
+GridStatusRaidDebuff:Debuff(zone, 83099, 32, 7, 7) --Lightning Rod
 GridStatusRaidDebuff:Debuff(zone, 82285, 33, 6, 6) --Elemental Stasis
 GridStatusRaidDebuff:Debuff(zone, 82660, 34, 6, 6) --Burning Blood
 GridStatusRaidDebuff:Debuff(zone, 82665, 35, 6, 6) --Heart of Ice

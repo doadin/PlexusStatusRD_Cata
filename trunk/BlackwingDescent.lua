@@ -34,6 +34,9 @@ GridStatusRaidDebuff:Debuff(zone, 79353, 1, 4, 4, true, true) --Shadow of Coward
 --Curse of Mending shows up as a Curse (dispellable)
 --Stormbolt shows up as Magic (dispellable)
 --Burden of the Crown is a buff debuff
+GridStatusRaidDebuff:Debuff(zone, 80718, 1, 1, 1, false, false, 0, true) --Burden of the Crown
+-- Don't show this either
+GridStatusRaidDebuff:Debuff(zone, 89798, 1, 1, 1, false, false, 0, true) --Master Adventurer Award
 
 --Magmaw
 GridStatusRaidDebuff:BossName(zone, 10, "Magmaw")
@@ -55,7 +58,9 @@ GridStatusRaidDebuff:Debuff(zone, 92053, 27, 5, 5) --Shadow Conductor
 GridStatusRaidDebuff:Debuff(zone, 92048, 28, 5, 5) --Shadow Infusion
 GridStatusRaidDebuff:Debuff(zone, 92023, 29, 6, 6) --Encasing Shadows
 -- Power Generator is good, don't need to watch it
+GridStatusRaidDebuff:Debuff(zone, 79629, 29, 1, 1, false, false, 0, true) --Power Generator
 -- Overcharged Power Generator is good, don't need to watch it
+GridStatusRaidDebuff:Debuff(zone, 91858, 29, 1, 1, false, false, 0, true) --Overcharged Power Generator
 
 --Chimaeron
 GridStatusRaidDebuff:BossName(zone, 30, "Chimaeron")
@@ -66,6 +71,7 @@ GridStatusRaidDebuff:Debuff(zone, 82935, 33, 6, 6) --Caustic Slime
 GridStatusRaidDebuff:Debuff(zone, 82881, 34, 7, 7, true, true) --Break
 GridStatusRaidDebuff:Debuff(zone, 91307, 35, 4, 4) --Mocking Shadows
 -- Don't care about Finkle's Mixture
+GridStatusRaidDebuff:Debuff(zone, 82705, 36, 1, 1, false, false, 0, true) --Finkle's Mixture
 
 --Atramedes
 GridStatusRaidDebuff:BossName(zone, 40, "Atramedes")
