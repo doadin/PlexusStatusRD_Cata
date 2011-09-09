@@ -18,20 +18,39 @@ GridStatusRaidDebuff:Debuff(zone, 100767, 1, 4, 4, true, true) --Melt Armor
 --Ancient Core Hound
 --GridStatusRaidDebuff:Debuff(zone, 99692, 1, 4, 4) --Terrifying Roar (Magic/dispellable)
 GridStatusRaidDebuff:Debuff(zone, 99693, 1, 4, 4) --Dinner Time
+-- Unstable Magma
+GridStatusRaidDebuff:Debuff(zone, 100549, 1, 4, 4) --Lava Surge
+-- Hell Hound
+GridStatusRaidDebuff:Debuff(zone, 100057, 1, 4, 4, true, true) --Rend Flesh
+-- Unbound Pyrelord
+GridStatusRaidDebuff:Debuff(zone, 101166, 1, 4, 4) --Ignite
+-- Flamewalker Subjugator
+GridStatusRaidDebuff:Debuff(zone, 100526, 1, 4, 4, true, true) --Blistering Wound
+-- Harbinger of Flame
+GridStatusRaidDebuff:Debuff(zone, 100095, 1, 4, 4) --Fieroclast Barrage
+-- Druid of the Flame
+-- GridStatusRaidDebuff:Debuff(zone, 99646, 1, 4, 4) --Reckless Leap (Magic/dispellable)
+-- GridStatusRaidDebuff:Debuff(zone, 99626, 1, 4, 4) --Sunfire (Magic/dispellable)
+GridStatusRaidDebuff:Debuff(zone, 99650, 1, 4, 4, true, true) --Reactive flames
 --Magma
 GridStatusRaidDebuff:Debuff(zone, 97151, 1, 4, 4, true, true) --Magma
+-- Soul Burn is dispelable magic
+-- Tormented Protector (Legendary Quest)
+GridStatusRaidDebuff:Debuff(zone, 100274, 1, 1, 1, false, false, 0, true) --Blessed Defender of Nordrassil
 
 --Beth'tilac
 GridStatusRaidDebuff:BossName(zone, 10, "Beth'tilac")
 GridStatusRaidDebuff:Debuff(zone, 99506, 11, 5, 5, true, true) --The Widow's Kiss
 --Cinderweb Drone
-GridStatusRaidDebuff:Debuff(zone, 49026, 12, 6, 6) --Fixate
+GridStatusRaidDebuff:Debuff(zone, 49026, 12, 6, 6) --Fixate (Heroic)
 --Cinderweb Spinner
 GridStatusRaidDebuff:Debuff(zone, 97202, 13, 5, 5) --Fiery Web Spin
---Cinderweb Spiderling99693
+--Cinderweb Spiderling
 GridStatusRaidDebuff:Debuff(zone, 97079, 14, 4, 4) --Seeping Venom
---Cinderweb Broodling
+--Cinderweb Broodling (Heroic)
 --Also cast fixate, same one as above?
+-- Upstairs
+GridStatusRaidDebuff:Debuff(zone, 100048, 15, 3, 3) --Fiery Web Silk
 
 --Lord Rhyolith
 GridStatusRaidDebuff:BossName(zone, 20, "Lord Rhyolith")
@@ -41,8 +60,8 @@ GridStatusRaidDebuff:Debuff(zone, 98492, 21, 5, 5, true, true) --Eruption
 GridStatusRaidDebuff:BossName(zone, 30, "Alysrazor")
 GridStatusRaidDebuff:Debuff(zone, 101729, 31, 5, 5, true, true) --Blazing Claw
 GridStatusRaidDebuff:Debuff(zone, 100094, 32, 4, 4, true, true) --Fieroblast
-GridStatusRaidDebuff:Debuff(zone, 99389, 33, 5, 5) --Imprinted
-GridStatusRaidDebuff:Debuff(zone, 99308, 34, 4, 4) --Gushing Wound
+GridStatusRaidDebuff:Debuff(zone, 99389, 33, 3, 3) --Imprinted
+GridStatusRaidDebuff:Debuff(zone, 99308, 34, 6, 6) --Gushing Wound
 GridStatusRaidDebuff:Debuff(zone, 100640, 35, 6, 6, true, true) --Harsh Winds
 GridStatusRaidDebuff:Debuff(zone, 100555, 35, 6, 6) --Smouldering Roots
 --Do we want to show these?
@@ -68,11 +87,12 @@ GridStatusRaidDebuff:BossName(zone, 50, "Baleroc")
 GridStatusRaidDebuff:Debuff(zone, 99252, 51, 5, 5, true, true) --Blaze of Glory
 GridStatusRaidDebuff:Debuff(zone, 99256, 52, 5, 5, true, true) --Torment
 GridStatusRaidDebuff:Debuff(zone, 99403, 53, 6, 6) --Tormented
-GridStatusRaidDebuff:Debuff(zone, 99262, 54, 4, 4, true, true) --Vital Spark
-GridStatusRaidDebuff:Debuff(zone, 99263, 55, 4, 4, true, true) --Vital Flame
-GridStatusRaidDebuff:Debuff(zone, 99516, 56, 7, 7) --Countdown
-GridStatusRaidDebuff:Debuff(zone, 99353, 57, 7, 7) --Decimating Strike
-GridStatusRaidDebuff:Debuff(zone, 100908, 58, 6, 6, true, true) --Fiery Torment
+GridStatusRaidDebuff:Debuff(zone, 99516, 54, 7, 7) --Countdown
+GridStatusRaidDebuff:Debuff(zone, 99353, 55, 7, 7) --Decimating Strike
+GridStatusRaidDebuff:Debuff(zone, 100908, 56, 6, 6, true, true) --Fiery Torment
+-- These don't show up currently because they are buffs
+GridStatusRaidDebuff:Debuff(zone, 99262, 57, 4, 4, true, true) --Vital Spark
+GridStatusRaidDebuff:Debuff(zone, 99263, 58, 4, 4, true, true) --Vital Flame
 
 --Majordomo Staghelm
 GridStatusRaidDebuff:BossName(zone, 60, "Majordomo Staghelm")
