@@ -11,6 +11,8 @@ GridStatusRaidDebuff:Debuff(zone, 99695, 1, 4, 4) --Flaming Spear
 GridStatusRaidDebuff:Debuff(zone, 99800, 1, 4, 4) --Ensnare
 --Flamewaker Cauterizer
 --GridStatusRaidDebuff:Debuff(zone, 99625, 1, 4, 4) --Conflagration (Magic/dispellable)
+--Flamewaker Centurion
+GridStatusRaidDebuff:Debuff(zone, 16856, 1, 4, 4) --Mortal Strike
 --Fire Scorpion
 GridStatusRaidDebuff:Debuff(zone, 99993, 1, 4, 4, true, true) --Fiery Blood
 --Molten Lord
@@ -22,21 +24,27 @@ GridStatusRaidDebuff:Debuff(zone, 99693, 1, 4, 4) --Dinner Time
 GridStatusRaidDebuff:Debuff(zone, 100549, 1, 4, 4) --Lava Surge
 -- Hell Hound
 GridStatusRaidDebuff:Debuff(zone, 100057, 1, 4, 4, true, true) --Rend Flesh
+-- Inferno Hawk
+GridStatusRaidDebuff:Debuff(zone, 99762, 1, 1, 1, false, false, 0, true) --Flames of the Firehawk
 -- Unbound Pyrelord
 GridStatusRaidDebuff:Debuff(zone, 101166, 1, 4, 4) --Ignite
--- Flamewalker Subjugator
+-- Flamewaker Subjugator
 GridStatusRaidDebuff:Debuff(zone, 100526, 1, 4, 4, true, true) --Blistering Wound
 -- Harbinger of Flame
 GridStatusRaidDebuff:Debuff(zone, 100095, 1, 4, 4) --Fieroclast Barrage
 -- Druid of the Flame
--- GridStatusRaidDebuff:Debuff(zone, 99646, 1, 4, 4) --Reckless Leap (Magic/dispellable)
--- GridStatusRaidDebuff:Debuff(zone, 99626, 1, 4, 4) --Sunfire (Magic/dispellable)
+-- Add Reckless Leap and Sunfire and put Reckless Leap higher priority
+-- so that you can dispell stuns before dots
+GridStatusRaidDebuff:Debuff(zone, 99646, 1, 5, 5) --Reckless Leap (Magic/dispellable)
+GridStatusRaidDebuff:Debuff(zone, 99626, 1, 4, 4) --Sunfire (Magic/dispellable)
 GridStatusRaidDebuff:Debuff(zone, 99650, 1, 4, 4, true, true) --Reactive flames
 --Magma
 GridStatusRaidDebuff:Debuff(zone, 97151, 1, 4, 4, true, true) --Magma
 -- Soul Burn is dispelable magic
 -- Tormented Protector (Legendary Quest)
 GridStatusRaidDebuff:Debuff(zone, 100274, 1, 1, 1, false, false, 0, true) --Blessed Defender of Nordrassil
+-- Volcanus (Legendary Quest)
+GridStatusRaidDebuff:Debuff(zone, 100324, 1, 4, 4) --Molten Fixation
 
 --Beth'tilac
 GridStatusRaidDebuff:BossName(zone, 10, "Beth'tilac")
@@ -63,9 +71,10 @@ GridStatusRaidDebuff:Debuff(zone, 100094, 32, 4, 4, true, true) --Fieroblast
 GridStatusRaidDebuff:Debuff(zone, 99389, 33, 3, 3) --Imprinted
 GridStatusRaidDebuff:Debuff(zone, 99308, 34, 6, 6) --Gushing Wound
 GridStatusRaidDebuff:Debuff(zone, 100640, 35, 6, 6, true, true) --Harsh Winds
-GridStatusRaidDebuff:Debuff(zone, 100555, 35, 6, 6) --Smouldering Roots
+GridStatusRaidDebuff:Debuff(zone, 100555, 36, 6, 6) --Smouldering Roots
+GridStatusRaidDebuff:Debuff(zone, 99275, 37, 6, 6) --Molten Boulder
 --Do we want to show these?
-GridStatusRaidDebuff:Debuff(zone, 99461, 36, 4, 4, true, true) --Blazing Power
+GridStatusRaidDebuff:Debuff(zone, 99461, 38, 4, 4, true, true) --Blazing Power
 --GridStatusRaidDebuff:Debuff(zone, 98734, 32, 4, 4, true, true) --Molten Feather
 --GridStatusRaidDebuff:Debuff(zone, 98619, 32, 4, 4) --Wings of Flame
 --GridStatusRaidDebuff:Debuff(zone, 100029, 32, 4, 4, true, true) --Alysra's Razor
@@ -106,19 +115,21 @@ GridStatusRaidDebuff:Debuff(zone, 96993, 64, 5, 5) --Stay Withdrawn?
 
 --Ragnaros
 GridStatusRaidDebuff:BossName(zone, 70, "Ragnaros")
-GridStatusRaidDebuff:Debuff(zone, 99399, 71, 5, 5, true, true) --Burning Wound
-GridStatusRaidDebuff:Debuff(zone, 100293, 72, 5, 5) --Lava Wave
+GridStatusRaidDebuff:Debuff(zone, 99399, 71, 6, 6, true, true) --Burning Wound
+GridStatusRaidDebuff:Debuff(zone, 100293, 72, 7, 7) --Lava Wave
 GridStatusRaidDebuff:Debuff(zone, 100238, 73, 4, 4, true, true) --Magma Trap Vulnerability
 GridStatusRaidDebuff:Debuff(zone, 98313, 74, 4, 4, true, true) --Magma Blast
+--Heroic Phase 4
+GridStatusRaidDebuff:Debuff(zone, 100941, 75, 4, 4) --Dreadflame
+GridStatusRaidDebuff:Debuff(zone, 100594, 75, 4, 4, true, true) --Superheated
 --Lava Scion
-GridStatusRaidDebuff:Debuff(zone, 100460, 75, 7, 7) --Blazing Heat
---Dreadflame?
+GridStatusRaidDebuff:Debuff(zone, 100460, 76, 6, 6) --Blazing Heat
 --Son of Flame
 --Lava
-GridStatusRaidDebuff:Debuff(zone, 98981, 76, 5, 5) --Lava Bolt
+GridStatusRaidDebuff:Debuff(zone, 98981, 77, 5, 5) --Lava Bolt
 --Molten Elemental
 --Living Meteor
-GridStatusRaidDebuff:Debuff(zone, 100249, 77, 5, 5, true, true) --Combustion
+GridStatusRaidDebuff:Debuff(zone, 100249, 78, 5, 5, true, true) --Combustion
 --Molten Wyrms
-GridStatusRaidDebuff:Debuff(zone, 99613, 78, 6, 6, true, true) --Molten Blast
+GridStatusRaidDebuff:Debuff(zone, 99613, 79, 6, 6, true, true) --Molten Blast
 
