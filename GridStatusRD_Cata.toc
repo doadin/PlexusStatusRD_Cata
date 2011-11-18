@@ -8,6 +8,7 @@
 
 BaradinHold.lua
 BlackwingDescent.lua
+# DragonSoul.lua
 Firelands.lua
 TheBastionOfTwilight.lua
 ThroneOfTheFourWinds.lua
