@@ -20,12 +20,12 @@ GridStatusRaidDebuff:Debuff(zone, 104378, 21, 3, 3) --Black Blood of Go'rath
 GridStatusRaidDebuff:Debuff(zone, 103434, 22, 5, 5) --Disrupting Shadows (dispellable)
 
 --Yor'sahj the Unsleeping
-GridStatusRaidDebuff:BossName(zone, 30, "Yor'sahj")
+GridStatusRaidDebuff:BossName(zone, 30, "Yor'sahj the Unsleeping")
 GridStatusRaidDebuff:Debuff(zone, 104849, 31, 5, 5, true, true) --Void Bolt
 GridStatusRaidDebuff:Debuff(zone, 105171, 32, 4, 4, true, true) --Deep Corruption
 
 --Hagara the Stormbinder
-GridStatusRaidDebuff:BossName(zone, 40, "Hagara")
+GridStatusRaidDebuff:BossName(zone, 40, "Hagara the Stormbinder")
 GridStatusRaidDebuff:Debuff(zone, 105316, 41, 4, 4, true, true) --Ice Lance
 GridStatusRaidDebuff:Debuff(zone, 105465, 42, 6, 6) --Lightning Storm
 GridStatusRaidDebuff:Debuff(zone, 105369, 43, 5, 5) --Lightning Conduit
