@@ -6,7 +6,7 @@ local zone = "Baradin Hold"
 -- Demon Containment Unit
 GridStatusRaidDebuff:Debuff(zone, 89354, 1, 6, 5) --Arcane Amplifier
 -- Disciple of Hate
--- GridStatusRaidDebuff:Debuff(zone, 105859, 1, 5, 5) --Run Through
+GridStatusRaidDebuff:Debuff(zone, 105859, 1, 5, 5) --Run Through
 
 --Argaloth
 GridStatusRaidDebuff:BossName(zone, 10, "Argaloth")
