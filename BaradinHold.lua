@@ -20,7 +20,7 @@ GridStatusRaidDebuff:Debuff(zone, 96913, 21, 5, 5, true, true) --Searing Shadows
 GridStatusRaidDebuff:Debuff(zone, 97028, 22, 6, 6) --Gaze of Occu'thar
 
 --Alizabal
--- GridStatusRaidDebuff:BossName(zone, 30, "Alizabal")
--- GridStatusRaidDebuff:Debuff(zone, 104936, 31, 4, 4) --Skewer
--- GridStatusRaidDebuff:Debuff(zone, 105067, 32, 6, 6) --Seething Hate
+GridStatusRaidDebuff:BossName(zone, 30, "Alizabal")
+GridStatusRaidDebuff:Debuff(zone, 104936, 31, 4, 4) --Skewer
+GridStatusRaidDebuff:Debuff(zone, 105067, 32, 6, 6) --Seething Hate
 
