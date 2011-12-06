@@ -4,6 +4,23 @@ local zone = "Dragon Soul"
 
 --Trash
 
+--Stormbinder Adept
+GridStatusRaidDebuff:Debuff(zone, 109442, 1, 4, 4) --Tornado
+--Lieutenant Shara
+GridStatusRaidDebuff:Debuff(zone, 109331, 1, 4, 4, true, true) --Shatter
+GridStatusRaidDebuff:Debuff(zone, 109333, 1, 5, 5) --Frost Corruption (magic)
+--Ancient Water Lord
+GridStatusRaidDebuff:Debuff(zone, 107801, 1, 4, 4) --Drenched
+GridStatusRaidDebuff:Debuff(zone, 107797, 1, 4, 4) --Flood
+GridStatusRaidDebuff:Debuff(zone, 107770, 1, 1, 1, false, false, 0, true) --Pure Water
+--Earthen Destroyer
+GridStatusRaidDebuff:Debuff(zone, 107677, 1, 4, 4, true, true) --Dust Storm
+GridStatusRaidDebuff:Debuff(zone, 107629, 1, 5, 5) --Boulder Smash (magic)
+--Stormborn Myrmidon
+GridStatusRaidDebuff:Debuff(zone, 109368, 1, 4, 4, true, true) --Spark
+--Twilight Frost Evoker
+GridStatusRaidDebuff:Debuff(zone, 109423, 1, 5, 5) --Shackles of Ice (magic)
+
 --Morchok
 GridStatusRaidDebuff:BossName(zone, 10, "Morchok")
 GridStatusRaidDebuff:Debuff(zone, 103687, 11, 4, 4, true, true) --Crush Armor
@@ -29,10 +46,11 @@ GridStatusRaidDebuff:BossName(zone, 40, "Hagara the Stormbinder")
 GridStatusRaidDebuff:Debuff(zone, 105316, 41, 4, 4, true, true) --Ice Lance
 GridStatusRaidDebuff:Debuff(zone, 105465, 42, 6, 6) --Lightning Storm
 GridStatusRaidDebuff:Debuff(zone, 105369, 43, 5, 5) --Lightning Conduit
-GridStatusRaidDebuff:Debuff(zone, 105289, 44, 3, 3) --Shattered Ice (dispellable)
+GridStatusRaidDebuff:Debuff(zone, 105289, 44, 7, 7) --Shattered Ice (dispellable)
 GridStatusRaidDebuff:Debuff(zone, 105285, 45, 6, 6) --Target (next Ice Lance)
 GridStatusRaidDebuff:Debuff(zone, 104451, 46, 5, 5) --Ice Tomb
 GridStatusRaidDebuff:Debuff(zone, 110317, 47, 6, 6) --Watery Entrenchment
+GridStatusRaidDebuff:Debuff(zone, 105314, 48, 3, 3) --Ice Wave
 
 --Ultraxion
 GridStatusRaidDebuff:BossName(zone, 50, "Ultraxion")
@@ -40,6 +58,7 @@ GridStatusRaidDebuff:Debuff(zone, 105925, 51, 6, 6) --Fading Light
 GridStatusRaidDebuff:Debuff(zone, 106108, 52, 5, 5) --Heroic Will
 GridStatusRaidDebuff:Debuff(zone, 105984, 53, 3, 3) --Timeloop
 GridStatusRaidDebuff:Debuff(zone, 105927, 54, 4, 4) --Faded Into Twilight
+GridStatusRaidDebuff:Debuff(zone, 106415, 55, 4, 4, true, true) --Twilight Burst
 
 --Warmaster Blackhorn
 GridStatusRaidDebuff:BossName(zone, 60, "Warmaster Blackhorn")
