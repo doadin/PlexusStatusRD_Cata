@@ -20,6 +20,8 @@ GridStatusRaidDebuff:Debuff(zone, 107629, 1, 5, 5) --Boulder Smash (magic)
 GridStatusRaidDebuff:Debuff(zone, 109368, 1, 4, 4, true, true) --Spark
 --Twilight Frost Evoker
 GridStatusRaidDebuff:Debuff(zone, 109423, 1, 5, 5) --Shackles of Ice (magic)
+--Twilight Siege Captain
+GridStatusRaidDebuff:Debuff(zone, 108183, 1, 5, 5) --Twilight Submission (magic)
 
 --Morchok
 GridStatusRaidDebuff:BossName(zone, 10, "Morchok")
@@ -30,42 +32,52 @@ GridStatusRaidDebuff:Debuff(zone, 103534, 14, 5, 5) --Danger (Red)
 GridStatusRaidDebuff:Debuff(zone, 103536, 15, 5, 5) --Warning (Yellow)
 -- Don't need to show Safe people
 GridStatusRaidDebuff:Debuff(zone, 103541, 16, 5, 5, false, false, 0, true) --Safe (Blue)
+-- Heroic
+GridStatusRaidDebuff:Debuff(zone, 109033, 17, 3, 3) --Stomp
 
 --Warlord Zon'ozz
 GridStatusRaidDebuff:BossName(zone, 20, "Warlord Zon'ozz")
 GridStatusRaidDebuff:Debuff(zone, 104378, 21, 3, 3) --Black Blood of Go'rath
 GridStatusRaidDebuff:Debuff(zone, 103434, 22, 5, 5) --Disrupting Shadows (dispellable)
+GridStatusRaidDebuff:Debuff(zone, 108799, 23, 2, 2) --Black Blood Erruption
 
 --Yor'sahj the Unsleeping
 GridStatusRaidDebuff:BossName(zone, 30, "Yor'sahj the Unsleeping")
-GridStatusRaidDebuff:Debuff(zone, 104849, 31, 5, 5, true, true) --Void Bolt
+GridStatusRaidDebuff:Debuff(zone, 104849, 31, 3, 3, true, true) --Void Bolt
 GridStatusRaidDebuff:Debuff(zone, 105171, 32, 4, 4, true, true) --Deep Corruption
 
 --Hagara the Stormbinder
 GridStatusRaidDebuff:BossName(zone, 40, "Hagara the Stormbinder")
-GridStatusRaidDebuff:Debuff(zone, 105316, 41, 4, 4, true, true) --Ice Lance
+GridStatusRaidDebuff:Debuff(zone, 105316, 41, 6, 6, true, true) --Ice Lance
 GridStatusRaidDebuff:Debuff(zone, 105465, 42, 6, 6) --Lightning Storm
 GridStatusRaidDebuff:Debuff(zone, 105369, 43, 5, 5) --Lightning Conduit
 GridStatusRaidDebuff:Debuff(zone, 105289, 44, 7, 7) --Shattered Ice (dispellable)
-GridStatusRaidDebuff:Debuff(zone, 105285, 45, 6, 6) --Target (next Ice Lance)
+GridStatusRaidDebuff:Debuff(zone, 105285, 45, 4, 4) --Target (next Ice Lance)
 GridStatusRaidDebuff:Debuff(zone, 104451, 46, 5, 5) --Ice Tomb
-GridStatusRaidDebuff:Debuff(zone, 110317, 47, 6, 6) --Watery Entrenchment
+GridStatusRaidDebuff:Debuff(zone, 110317, 47, 3, 3) --Watery Entrenchment
 GridStatusRaidDebuff:Debuff(zone, 105314, 48, 3, 3) --Ice Wave
+-- Heroic
+GridStatusRaidDebuff:Debuff(zone, 109325, 49, 7, 7) --Frostflake (dispellable)
 
 --Ultraxion
 GridStatusRaidDebuff:BossName(zone, 50, "Ultraxion")
 GridStatusRaidDebuff:Debuff(zone, 105925, 51, 6, 6) --Fading Light
 GridStatusRaidDebuff:Debuff(zone, 106108, 52, 5, 5) --Heroic Will
-GridStatusRaidDebuff:Debuff(zone, 105984, 53, 3, 3) --Timeloop
+GridStatusRaidDebuff:Debuff(zone, 105984, 53, 2, 2) --Timeloop
 GridStatusRaidDebuff:Debuff(zone, 105927, 54, 4, 4) --Faded Into Twilight
 GridStatusRaidDebuff:Debuff(zone, 106415, 55, 4, 4, true, true) --Twilight Burst
+-- Heroic
+GridStatusRaidDebuff:Debuff(zone, 106498, 56, 3, 3) --Looming Darkness
 
 --Warmaster Blackhorn
 GridStatusRaidDebuff:BossName(zone, 60, "Warmaster Blackhorn")
 GridStatusRaidDebuff:Debuff(zone, 108043, 61, 4, 4, true, true) --Sunder Armor
 GridStatusRaidDebuff:Debuff(zone, 107558, 62, 3, 3, true, true) --Degeneration
 GridStatusRaidDebuff:Debuff(zone, 107567, 64, 3, 3, true, true) --Brutal Strike
-GridStatusRaidDebuff:Debuff(zone, 108046, 64, 5, 5) --Shockwave
+GridStatusRaidDebuff:Debuff(zone, 108046, 65, 5, 5) --Shockwave
+-- Heroic
+GridStatusRaidDebuff:Debuff(zone, 109204, 66, 5, 5) -- Twilight Barrage
+GridStatusRaidDebuff:Debuff(zone, 110214, 67, 6, 6) -- Consuming Shroud
 
 --Spine of Deathwing
 GridStatusRaidDebuff:BossName(zone, 70, "Spine of Deathwing")
