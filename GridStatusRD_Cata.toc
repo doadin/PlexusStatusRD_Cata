@@ -1,8 +1,8 @@
-## Interface: 50001
+## Interface: 50100
 ## Title: GridStatusRaidDebuff(Catalcysm)
 ## Notes: Debuff List for Cataclysm
 ## Author: Stassart (Trelis-Proudmoore-US)
-## Version: 1.4
+## Version: 1.41
 ## Grid Author: Pastamancer & Maia
 ## Dependencies: GridStatusRaidDebuff
 
