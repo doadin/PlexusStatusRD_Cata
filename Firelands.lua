@@ -1,5 +1,5 @@
 -- local zone = "Firelands"
-local zoneid = 800
+local zoneid = 367
 
 --en_zone, debuffID, order, icon_priority, color_priority, timer, stackable, color, default_disable, noicon
 

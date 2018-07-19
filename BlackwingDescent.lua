@@ -1,5 +1,5 @@
 -- local zone = "Blackwing Descent"
-local zoneid = 754
+local zoneid = 285
 
 --en_zone, debuffID, order, icon_priority, color_priority, timer, stackable, color, default_disable, noicon
 
