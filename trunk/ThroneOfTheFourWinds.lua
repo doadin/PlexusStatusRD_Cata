@@ -1,5 +1,5 @@
 -- local zone = "Throne of the Four Winds"
-local zoneid = 773
+local zoneid = 328
 
 --en_zone, debuffID, order, icon_priority, color_priority, timer, stackable, color, default_disable, noicon
 

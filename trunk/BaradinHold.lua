@@ -1,5 +1,5 @@
 -- local zone = "Baradin Hold"
-local zoneid = 752
+local zoneid = 282
 
 --en_zone, debuffID, order, icon_priority, color_priority, timer, stackable, color, default_disable, noicon
 

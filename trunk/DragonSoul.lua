@@ -1,5 +1,5 @@
 -- local zone = "Dragon Soul"
-local zoneid = 824
+local zoneid = 409
 
 --en_zone, debuffID, order, icon_priority, color_priority, timer, stackable, color, default_disable, noicon
 
