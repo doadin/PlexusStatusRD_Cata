@@ -1,8 +1,8 @@
-## Interface: 80000
+## Interface: 80100
 ## Title: GridStatusRaidDebuff(Catalcysm)
 ## Notes: Debuff List for Cataclysm
 ## Author: Stassart (Trelis-Proudmoore-US),tptbk(Doadin-Malorne-US)
-## Version: 8.0.1.3
+## Version: 8.1.0.0
 ## Grid Author: Pastamancer & Maia
 ## Dependencies: Grid, GridStatusRaidDebuff
 
