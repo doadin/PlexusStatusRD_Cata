@@ -1,4 +1,4 @@
-## Interface: 80205
+## Interface: 80300
 ## Title: GridStatusRaidDebuff(Catalcysm)
 ## Notes: Debuff List for Cataclysm
 ## Author: Stassart (Trelis-Proudmoore-US),tptbk(Doadin-Malorne-US)
