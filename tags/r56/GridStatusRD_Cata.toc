@@ -1,0 +1,15 @@
+## Interface: 90001
+## Title: GridStatusRaidDebuff(Catalcysm)
+## Notes: Debuff List for Cataclysm
+## Author: Stassart (Trelis-Proudmoore-US),Doadin(Doadin-Malorne-US)
+## Version: 9.0.0.0
+## Grid Author: Pastamancer & Maia
+## OptionalDeps: Grid, Plexus, GridStatusRaidDebuff
+
+BaradinHold.lua
+BlackwingDescent.lua
+DragonSoul.lua
+Firelands.lua
+TheBastionOfTwilight.lua
+ThroneOfTheFourWinds.lua
+
