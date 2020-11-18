@@ -1,0 +1,7 @@
+package-as: GridStatusRD_Cata
+
+license-output: GPL.txt
+
+ignore:
+ - .pkgmeta
+
