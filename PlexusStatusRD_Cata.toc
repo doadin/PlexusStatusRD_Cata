@@ -1,11 +1,17 @@
+#@retail@
 ## Interface: 90002
-## Title: GridStatusRaidDebuff(Catalcysm)
+#@end-retail@
+#@non-retail@
+## Interface: 11305
+#@end-non-retail@
+## Version: @project-version@
+## Title: PlexusStatusRaidDebuff(Catalcysm)
 ## Notes: Debuff List for Cataclysm
 ## Author: Stassart (Trelis-Proudmoore-US),Doadin
-## Version: 9.0.0.0
 ## Grid Author: Pastamancer & Maia
 ## Dependencies: PlexusStatusRaidDebuff
 ## OptionalDeps: Grid, Plexus
+## X-Curse-Project-ID: 28185
 
 BaradinHold.lua
 BlackwingDescent.lua

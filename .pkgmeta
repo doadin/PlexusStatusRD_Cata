@@ -1,6 +1,4 @@
-package-as: GridStatusRD_Cata
-
-license-output: GPL.txt
+package-as: PlexusStatusRD_Cata
 
 ignore:
  - .pkgmeta
