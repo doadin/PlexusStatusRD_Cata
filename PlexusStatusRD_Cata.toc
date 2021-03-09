@@ -9,8 +9,7 @@
 ## Notes: Debuff List for Cataclysm
 ## Author: Stassart (Trelis-Proudmoore-US),Doadin
 ## Grid Author: Pastamancer & Maia
-## Dependencies: PlexusStatusRaidDebuff
-## OptionalDeps: Grid, Plexus
+## Dependencies: Plexus, PlexusStatusRaidDebuff
 ## X-Curse-Project-ID: 28185
 
 BaradinHold.lua
