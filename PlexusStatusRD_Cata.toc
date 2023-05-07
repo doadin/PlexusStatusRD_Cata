@@ -11,6 +11,8 @@
 ## Dependencies: Plexus, PlexusStatusRaidDebuff
 ## X-Curse-Project-ID: 28185
 
+## IconTexture: Interface\AddOns\Plexus\Media\icon
+
 BaradinHold.lua
 BlackwingDescent.lua
 DragonSoul.lua
