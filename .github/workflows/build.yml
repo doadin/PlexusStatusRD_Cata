@@ -26,3 +26,8 @@ jobs:
         uses: BigWigsMods/packager@master
         with:
             args: -g retail
+
+      - name: Package Retail
+        uses: BigWigsMods/packager@master
+        with:
+            args: -g cata
