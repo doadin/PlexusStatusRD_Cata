@@ -15,9 +15,9 @@
 
 ## IconTexture: Interface\AddOns\Plexus\Media\icon
 
-BaradinHold.lua
-BlackwingDescent.lua
-DragonSoul.lua
-Firelands.lua
-TheBastionOfTwilight.lua
-ThroneOfTheFourWinds.lua
+BaradinHold.lua [AllowLoadGameType vanilla, tbc, Wrath, Cata, Mists]
+BlackwingDescent.lua [AllowLoadGameType vanilla, tbc, Wrath, Cata, Mists]
+DragonSoul.lua [AllowLoadGameType vanilla, tbc, Wrath, Cata, Mists]
+Firelands.lua [AllowLoadGameType vanilla, tbc, Wrath, Cata, Mists]
+TheBastionOfTwilight.lua [AllowLoadGameType vanilla, tbc, Wrath, Cata, Mists]
+ThroneOfTheFourWinds.lua [AllowLoadGameType vanilla, tbc, Wrath, Cata, Mists]

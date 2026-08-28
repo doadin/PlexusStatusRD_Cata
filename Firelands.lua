@@ -1,5 +1,9 @@
 -- local zone = "Firelands"
 local zoneid = 367
+local Plexus = _G.Plexus
+if Plexus:IsRetailWow() then
+    return
+end
 
 --en_zone, debuffID, order, icon_priority, color_priority, timer, stackable, color, default_disable, noicon
 

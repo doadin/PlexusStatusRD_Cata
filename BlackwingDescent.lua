@@ -1,5 +1,9 @@
 -- local zone = "Blackwing Descent"
 local zoneid = 285
+local Plexus = _G.Plexus
+if Plexus:IsRetailWow() then
+    return
+end
 
 --en_zone, debuffID, order, icon_priority, color_priority, timer, stackable, color, default_disable, noicon
 
